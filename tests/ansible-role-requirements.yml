@@ -1,0 +1,6 @@
+- name: plugins
+  src: https://github.com/os-cloud/openstack-ansible-plugins
+  path: ../../
+  scm: git
+  version: master
+
