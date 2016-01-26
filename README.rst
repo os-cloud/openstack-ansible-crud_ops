@@ -1,13 +1,10 @@
-crud_ops Docs
-=============
+crud_ops role
+#############
+:tags: openstack, cloud, ansible, crud_ops
+:category: \*nix
 
-This role simply creates and does a basic setup for anything
-CRUD related that a given OpenStack service may need.
-
-Basic Role Example
-^^^^^^^^^^^^^^^^^^
-
-Tell us how to use the role.
+Role setup and creation of database and messaging backends that
+OpenStack Services depend on.
 
 .. code-block:: yaml
 

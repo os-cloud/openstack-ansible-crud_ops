@@ -1,2 +1,8 @@
 [all]
 localhost ansible_connection=local ansible_become=True
+
+[galera_all]
+localhost ansible_connection=local ansible_become=True ansible_ssh_host=127.0.0.1
+
+[rabbitmq_all]
+localhost ansible_connection=local ansible_become=True container_name="{{ inventory_hostname }}"
